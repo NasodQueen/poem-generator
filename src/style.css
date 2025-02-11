@@ -1,0 +1,109 @@
+:root/*[data-theme="light"]*/ {
+    --text: #080305;
+    --background: #eadce3;
+    --primary: #84a6e1;
+    --secondary: #93d3c9;
+    --accent: #7d85cb;
+  }
+  /*:root[data-theme="dark"] {
+    --text: #fcf8f9;
+    --background: #23151c;
+    --primary: #1e407b;
+    --secondary: #2c6d63;
+    --accent: #343c83;
+  }*/
+
+  body {
+    font-family: 'Mukta Malar';
+    font-weight: 400;
+    background-color: var(--background);
+  }
+  
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Maitree';
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--text);
+    text-align: center;
+  }
+
+
+  html {font-size: 100%;} /* 16px */
+
+  h1 {font-size: 3.053rem; /* 48.8px */}
+  
+  h2 {font-size: 2.442rem; /* 39.04px */}
+  
+  h3 {font-size: 1.954rem; /* 31.2px */}
+  
+  h4 {font-size: 1.563rem; /* 24.96px */}
+  
+  h5 {font-size: 1.250rem; /* 20px */}
+  
+  small {font-size: 0.800rem; /* 12.8px */}
+
+
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  header {
+    margin-bottom: 1.954rem;
+  }
+
+form {
+    margin-bottom: 1.954rem;
+    padding: 1.954rem;
+    background-color: white;
+    border-radius: 0.800rem;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+
+  }
+
+  .prompt-input {
+    font-family: 'Mukta Malar';
+    font-size: 100%;
+    width: 80%;
+    padding: 0.800rem;
+    line-height: 1.250rem;
+    border-radius: 1.500rem;
+    border: 3px solid var(--primary);
+  }
+
+  .submit-button {
+    font-family: 'Mukta Malar';
+    font-size: 100%;
+    margin-left: 0.800rem;
+    width: 20%;
+    background-color: var(--accent);
+    color: var(--background);
+    line-height: 1.250rem;
+    border-radius: 1.500rem;
+    border: none;
+  }
+
+  .poem {
+    margin-bottom: 1.954rem;
+    padding: 1.954rem;
+    background-color: white;
+    border-left: 3px solid var(--primary);
+    border-radius: 0.800rem;
+    line-height: 2;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  a{
+    color: var(--primary);
+  }
+
+  a:hover{
+    color: var(--accent);
+  }
+  
