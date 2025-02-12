@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
     </style>
@@ -16,7 +17,7 @@
     </header>
 
     <main>
-        <form action="">
+        <form action="" id="poem-generator-form">
             <input
                 type="text"
                 class="prompt-input"
@@ -26,8 +27,7 @@
                 autocomplete="off">
             <input type="submit" class="submit-button" value="Submit">
         </form>
-        <div class="poem">
-            The poem will go here
+        <div class="poem" id="poem-display">
         </div>
     </main>
 
