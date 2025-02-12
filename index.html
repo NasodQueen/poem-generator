@@ -18,18 +18,21 @@
     </header>
 
     <main>
+        <div class="form-container">
         <form action="" id="poem-generator-form">
             <input
                 type="text"
                 class="prompt-input"
                 id="user-prompt"
-                placeholder="Enter the topic of the poem"
+                placeholder="Enter the topic of your poem"
                 autofocus
                 required
                 autocomplete="off">
             <input type="submit" class="submit-button" value="Submit">
         </form>
-        <div class="poem" id="poem-display">
+        <div class="input-hint">i.e.: Flowers, clouds, etc.</div>
+    </div>
+        <div class="poem hidden" id="poem-display">
         </div>
     </main>
 
